@@ -1,0 +1,7 @@
+micro.bmp & tiny.bmp come from a CS 60 version of this assignment: 
+  https://docs.google.com/document/d/1CKDZKCXwOAZJJHdjs2wE3O6UGp4nYhBHbgLCTwFOd5U/edit
+
+Bird.png: Natasha Miller -- https://unsplash.com/photos/DFCnzrSYqpQ
+
+Water.png: Natasha Miller -- https://unsplash.com/photos/piQ46peLbN4
+
