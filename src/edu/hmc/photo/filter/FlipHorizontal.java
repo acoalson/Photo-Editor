@@ -3,10 +3,16 @@ package edu.hmc.photo.filter;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
+/*
+ * @author Aria Coalson
+ */
 public class FlipHorizontal implements ImageFilter
 {
 
-    @Override
+    /*
+     * Flips the image horizontally
+     */
+	@Override
     public BufferedImage filter(BufferedImage image)
     {
         BufferedImage newImage = new BufferedImage(image.getWidth(), image.getHeight(), image.getType());

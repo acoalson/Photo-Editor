@@ -3,10 +3,17 @@ package edu.hmc.photo.filter;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
+/*
+ * @author Aria Coalson
+ */
 public class Grayscale implements ImageFilter
 {
 
-    @Override
+    /*
+     * Uses the average method to average the three color values
+     * (R + G + B) / 3
+     */
+	@Override
     public BufferedImage filter(BufferedImage image)
     {
         for (int x = 0; x < image.getWidth(); x++)

@@ -3,9 +3,16 @@ package edu.hmc.photo.filter;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
+/*
+ * @author Aria Coalson
+ * 
+ */
 public class FlipVertical implements ImageFilter
 {
 
+    /*
+     * Flips the image vertically
+     */
     public BufferedImage filter(BufferedImage image)
     {
         BufferedImage newImage = new BufferedImage(image.getWidth(), image.getHeight(), image.getType());
@@ -16,11 +23,10 @@ public class FlipVertical implements ImageFilter
             {
                 Color color1 = new Color(image.getRGB(x, y));
 
-                newImage.setRGB(image.getWidth() - x - 1 , y , color1.getRGB());
+                newImage.setRGB(image.getWidth() - x - 1, y, color1.getRGB());
 
             }
         }
         return newImage;
     }
 }
-

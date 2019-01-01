@@ -2,6 +2,9 @@ package edu.hmc.photo.filter;
 
 import java.awt.image.BufferedImage;
 
+/*
+ * @author Aria Coalson
+ */
 public class CarveMany implements ImageFilter {
 
   /** The number of times to carve */

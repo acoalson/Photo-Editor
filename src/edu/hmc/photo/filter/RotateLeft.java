@@ -3,9 +3,15 @@ package edu.hmc.photo.filter;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
+/*
+ * @author Aria Coalson
+ */
 public class RotateLeft implements ImageFilter
 {
 
+    /*
+     * Rotates the image 90 degrees counterclockwise
+     */
     public BufferedImage filter(BufferedImage image)
     {
         

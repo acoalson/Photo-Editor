@@ -3,6 +3,11 @@ package edu.hmc.photo.filter;
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
+/*
+ * Computes an image's seam by finding the minimal energy path from the top of the image to the bottom
+ * 
+ * @author Aria Coalson
+ */
 public class FindSeam implements ImageFilter
 {
     private static int[][] table;
